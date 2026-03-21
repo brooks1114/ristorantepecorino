@@ -77,6 +77,17 @@ export default function Header() {
                 <FacebookIcon />
               </a>
             </li>
+            <li>
+              <a
+                href="https://tables.toasttab.com/restaurants/6456a10e-bf3c-4e18-a21e-4e925162f48a/reserve"
+                target="_blank"
+                rel="noreferrer"
+                className="nav-reserve-link"
+                aria-label="Reserve a table at Pecorino's"
+              >
+                Reserve a Table
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

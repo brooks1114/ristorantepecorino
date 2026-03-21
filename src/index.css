@@ -145,6 +145,28 @@ button {
     height: 1.2rem;
 }
 
+.nav-reserve-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.72rem 1.25rem;
+    border-radius: 999px;
+    background: var(--wine);
+    color: #fff;
+    font-size: 0.98rem;
+    letter-spacing: 0.02em;
+    border: 1px solid var(--wine);
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease,
+        box-shadow 0.2s ease;
+    box-shadow: 0 8px 18px rgba(124, 45, 45, 0.16);
+}
+
+.nav-reserve-link:hover {
+    background: #652525;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
 .hero {
     padding: 4.5rem 0 3rem;
     text-align: center;
@@ -172,6 +194,53 @@ button {
     color: var(--muted);
     font-size: 1.12rem;
     line-height: 1.8;
+}
+
+.hero-actions,
+.section-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0.85rem 1.4rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.btn-primary {
+    background: var(--wine);
+    color: #fff;
+    border: 1px solid var(--wine);
+}
+
+.btn-primary:hover {
+    background: #652525;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--gold);
+}
+
+.btn-secondary:hover {
+    background: rgba(176, 141, 87, 0.1);
+    color: var(--wine);
+    transform: translateY(-1px);
 }
 
 .section-card {
@@ -483,8 +552,13 @@ button {
     line-height: 1.7;
 }
 
-.site-footer-details a:hover {
+.site-footer-details a:hover,
+.footer-reserve-link:hover {
     color: var(--wine);
+}
+
+.footer-reserve-link {
+    font-weight: 600;
 }
 
 @media (max-width: 860px) {
@@ -524,7 +598,8 @@ button {
         font-size: 2.5rem;
     }
 
-    .nav-link {
+    .nav-link,
+    .nav-reserve-link {
         width: 100%;
         text-align: center;
     }
@@ -545,5 +620,11 @@ button {
     .cocktail-name,
     .menu-item-name {
         font-size: 1.35rem;
+    }
+
+    .hero-actions,
+    .section-actions {
+        flex-direction: column;
+        align-items: stretch;
     }
 }

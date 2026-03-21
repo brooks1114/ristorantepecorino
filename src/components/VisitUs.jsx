@@ -9,6 +9,17 @@ export default function VisitUs() {
           stopping in for dinner, artisan pizza, or drinks, we look forward to
           welcoming you.
         </p>
+
+        <div className="section-actions">
+          <a
+            href="https://tables.toasttab.com/restaurants/6456a10e-bf3c-4e18-a21e-4e925162f48a/reserve"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-primary"
+          >
+            Reserve a Table
+          </a>
+        </div>
       </section>
 
       <section className="section-card section-spacing">
@@ -38,6 +49,17 @@ export default function VisitUs() {
             </a>
           </li>
         </ul>
+
+        <div className="section-actions">
+          <a
+            href="https://tables.toasttab.com/restaurants/6456a10e-bf3c-4e18-a21e-4e925162f48a/reserve"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-primary"
+          >
+            Make a Reservation
+          </a>
+        </div>
       </section>
 
       <section className="section-card section-spacing">
@@ -57,6 +79,17 @@ export default function VisitUs() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
+        </div>
+
+        <div className="section-actions">
+          <a
+            href="https://tables.toasttab.com/restaurants/6456a10e-bf3c-4e18-a21e-4e925162f48a/reserve"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-primary"
+          >
+            Reserve Before You Arrive
+          </a>
         </div>
       </section>
     </div>
