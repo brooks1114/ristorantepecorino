@@ -14,6 +14,16 @@ function FacebookIcon() {
 }
 
 export default function Header() {
+  const handleReserveClick = () => {
+    if (window.gtag) {
+      window.gtag('event', 'reserve_click', {
+        event_category: 'engagement',
+        event_label: 'Toast Reservation',
+        value: 1,
+      })
+    }
+  }
+
   return (
     <header className="site-header">
       <div className="header-inner">
@@ -84,6 +94,7 @@ export default function Header() {
                 rel="noreferrer"
                 className="nav-reserve-link"
                 aria-label="Reserve a table at Pecorino's"
+                onClick={handleReserveClick}
               >
                 Reserve a Table
               </a>
