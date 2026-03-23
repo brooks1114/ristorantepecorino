@@ -33,7 +33,7 @@ const cocktails = [
     name: 'Italian Old Fashioned',
     price: '17',
     description:
-      'Woodford, drop of bourbon-soaked cherry juice, bitters.'
+      'Woodbridge, drop of bourbon-soaked cherry juice, bitters.'
   },
   {
     name: "Pecorino's Paloma",
@@ -62,20 +62,20 @@ const cocktails = [
 ]
 
 const redWines = [
-  'Woodford Pinot Noir',
-  'Woodford Cabernet Sauvignon',
-  'Woodford Merlot',
+  'Woodbridge Pinot Noir',
+  'Woodbridge Cabernet Sauvignon',
+  'Woodbridge Merlot',
   'Ruffino Chianti',
   'Camila Malbec'
 ]
 
 const whiteWines = [
-  'Woodford Pinot Grigio',
-  'Woodford Sauvignon Blanc',
-  'Woodford Chardonnay'
+  'Woodbridge Pinot Grigio',
+  'Woodbridge Sauvignon Blanc',
+  'Woodbridge Chardonnay'
 ]
 
-const blushWines = ['Woodford Rosé']
+const blushWines = ['Woodbridge Rosé']
 
 const beers = [
   'Budweiser',
