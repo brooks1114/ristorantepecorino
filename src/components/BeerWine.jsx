@@ -33,7 +33,7 @@ const cocktails = [
     name: 'Italian Old Fashioned',
     price: '17',
     description:
-      'Woodbridge, drop of bourbon-soaked cherry juice, bitters.'
+      'Woodford, drop of bourbon-soaked cherry juice, bitters.'
   },
   {
     name: "Pecorino's Paloma",
